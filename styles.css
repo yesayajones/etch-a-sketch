@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.box {
+	background-color: rgb(28, 49, 94);
+}
+
+#container {
+	padding: 50px;
+	display: grid;
+	width: 500px;
+	height: 500px;
+	margin: auto;
+}
+
+.user {
+	padding: 50px 50px 10px;
+	text-align: center;
+}
+
+#input {
+	padding: 10px 20px;
+	width: 30%;
+	border-radius: 10px;
+	border: solid 2px rgba(28, 49, 94, 0.5);
+	margin-right: 10px;
+}
+
+.enter {
+	padding: 10px 20px;
+	width: 10%;
+	border-radius: 10px;
+	border: solid 2px rgba(28, 49, 94, 0.5);
+	transition: all 0.2s ease-out;
+}
+
+.enter:hover {
+	transform: scale(1.1);
+}
+
+.enter:active {
+	transform: scale(1.1);
+	background-color: black;
+	color: white;
+}
